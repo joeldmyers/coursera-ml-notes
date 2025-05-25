@@ -106,6 +106,8 @@ Other is called *anomaly detection*. Important for fraud detection.
 
 ## Jupyter Notebooks
 
+I watched this to supplement this: https://www.youtube.com/watch?v=5pf0_bpNbkw
+
 Built on iPython.
 
 `pip install jupyterlab`
@@ -113,3 +115,41 @@ Built on iPython.
 and then run `jupyter notebook`
 
 Notebooks will have ipynb. 
+
+Can do Jupyter Lab instead of Jupyter Notebook
+
+Can run in cloud: 
+- Google Colab: https://colab.research.google.com/
+- Kaggle: https://www.kaggle.com/code
+
+### Keyboard shortcuts
+
+Shift + Enter -> Run cell. Takes you to next cell. 
+
+Control + Enter -> Run cell and stay in cell.
+
+When working in cell and want to go to other cell, hit escape. use j and k keys. 
+
+Add and remove cells: 
+
+a is add cell above.
+b is add cell below.
+
+dd -> delete.
+
+change between md and code: type m for markdown. y for code.
+
+## Random notes from this: 
+
+https://www.youtube.com/watch?v=_xIwjmCH6D4 
+
+1. Python basics
+2. Why Machines Learn: Anil Ananthaswamy
+3. Andrew Ng ML specialization
+4. Andrew Ng Deep learning specialization
+5. CS25 Transformer Architecture
+6. Andrej Karpathy YT all videos
+7. Understanding Deep Learning Simon prince (for theory research top dense work)
+8. Numpy/panda/matplotlib/pytorch/tensorflow/jax/sckit learn -> kaggle begginer projects
+9.  Reading Research paper
+10. show ur work & projects (linkedin/blog post/research paper submit)
