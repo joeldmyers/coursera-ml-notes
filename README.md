@@ -153,3 +153,25 @@ https://www.youtube.com/watch?v=_xIwjmCH6D4
 8. Numpy/panda/matplotlib/pytorch/tensorflow/jax/sckit learn -> kaggle begginer projects
 9.  Reading Research paper
 10. show ur work & projects (linkedin/blog post/research paper submit)
+
+## Linear regression models
+
+Size and price.
+
+This simple linear regression is considered a "supervised learning model". 
+
+Classification is finite set of outputs.
+
+Can also do data table. 
+
+*Some Terminology*
+
+Data set used to call a model is called a **training set**.
+
+x is input variable feature
+y is output variable feature
+m is number of training examples.
+
+so (x,y) is for example (2104,400) 
+
+so this is (x<sup>i</sup>, y<sup>i</sup>)
