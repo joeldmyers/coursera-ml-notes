@@ -174,4 +174,6 @@ m is number of training examples.
 
 so (x,y) is for example (2104,400) 
 
-so this is (x<sup>i</sup>, y<sup>i</sup>)
+so this is (x<sup>(i)</sup>, y<sup>(i)</sup>)
+
+Not exponentiation. Parentheses important. Wonder why they didn't do subscript but whatever.
