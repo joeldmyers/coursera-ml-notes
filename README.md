@@ -210,7 +210,7 @@ w and b are *parameters* of a model. They can also be referred to as *coefficien
 
 Cost function takes ŷ - y: this difference measures the error. 
 
- J(w,b) = (1/2m) * $\sum_{i=1}^{m} (ŷ^{(i)}- y^{(i)})^2$
+ J(w,b) =  $(1/(2*m)) *\sum_{i=1}^{m} (ŷ^{(i)}- y^{(i)})^2$
 
  This is the sum of the squares of the "error" or difference between hypothesized y value (ŷ) and actual y value (y) for each ith iteration.
 
