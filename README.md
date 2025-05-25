@@ -221,3 +221,10 @@ Cost function takes ŷ - y: this difference measures the error.
  This is called the squared error cost function.
 
  There are different cost functions. But squared error cost function is the most common.
+
+ ### Some intuition around cost function.
+What we are aiming for is to minimize J in the above:
+$$
+\min_{w,\,b} J(w,b)
+$$
+
