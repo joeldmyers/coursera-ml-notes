@@ -229,9 +229,7 @@ What we are aiming for is to minimize J in the above:
 For example they say just set b to 0, and simplify it so we're just worrying about w.
 
 So then it's just
-$$
-\min_{w} J(w)
-$$
+![minimize equation](https://latex.codecogs.com/svg.image?\min_{w}J(w))
 
 So then you can start graphing out the J(w) with different w values and try to get to the minimum.
 
