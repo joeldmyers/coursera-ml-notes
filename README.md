@@ -177,3 +177,18 @@ so (x,y) is for example (2104,400)
 so this is (x<sup>(i)</sup>, y<sup>(i)</sup>)
 
 Not exponentiation. Parentheses important. Wonder why they didn't do subscript but whatever.
+
+
+### Linear regression with one variable
+
+`f` is function. used to be called hypothesis. Used to take in x and generate output ŷ (y hat). 
+
+In ML, convention is that ŷ is the estimate.
+
+x is called input feature.
+
+ŷ is prediction (estimated y).
+
+if it's y it's the actual true value. ŷ is estimate that may or may not be accurate true value.
+
+f<sub>w,b</sub>(x) = wx + b
