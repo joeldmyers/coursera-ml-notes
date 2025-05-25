@@ -228,7 +228,7 @@ What we are aiming for is to minimize J in the above:
 
 For example they say just set b to 0, and simplify it so we're just worrying about w.
 
-So then it's just
+So then to simplify it, it's just
 ![minimize equation](https://latex.codecogs.com/svg.image?\min_{w}J(w))
 
 So then you can start graphing out the J(w) with different w values and try to get to the minimum.
@@ -237,3 +237,12 @@ So then you can start graphing out the J(w) with different w values and try to g
 <img width="979" alt="Bildschirmfoto 2025-05-25 um 6 32 43 PM" src="https://github.com/user-attachments/assets/ebf892ff-4e1e-4a1f-bd75-89ec4ec32399" />
 
 This is simplified though, because it's only two parameters. This needs to be three-dimensional to account for b.
+
+### Including B
+
+![minimize equation](https://latex.codecogs.com/svg.image?\min_{w,\,b}J(w,b))
+
+So w would be x, b would be y, and J would be Z.
+
+
+<img width="832" alt="Bildschirmfoto 2025-05-25 um 6 38 27 PM" src="https://github.com/user-attachments/assets/3f4d83ad-c860-4195-adff-43261d5a1a21" />
