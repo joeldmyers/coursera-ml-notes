@@ -250,3 +250,9 @@ So w would be x, b would be y, and J would be Z.
 You can also use a contour plot to depict this in two dimensions:
 
 <img width="682" alt="Bildschirmfoto 2025-05-25 um 6 40 02 PM" src="https://github.com/user-attachments/assets/3108513b-72f4-49a3-8356-a905c57bd7e8" />
+
+So you slice it. Each slice is a different height. But they're all put on the same. This will show the minimum in 2-D.
+
+You want to get to the minimum: 
+
+<img width="733" alt="Bildschirmfoto 2025-05-25 um 6 43 46 PM" src="https://github.com/user-attachments/assets/86488d13-6d2c-4f4d-9e4c-53a6aca33600" />
