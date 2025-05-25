@@ -256,3 +256,5 @@ So you slice it. Each slice is a different height. But they're all put on the sa
 You want to get to the minimum: 
 
 <img width="733" alt="Bildschirmfoto 2025-05-25 um 6 43 46 PM" src="https://github.com/user-attachments/assets/86488d13-6d2c-4f4d-9e4c-53a6aca33600" />
+
+The algorithm for getting to this minimizing cost is **Gradient Descent**
