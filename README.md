@@ -210,6 +210,14 @@ w and b are *parameters* of a model. They can also be referred to as *coefficien
 
 Cost function takes ŷ - y: this difference measures the error. 
 
- $\sum_{i=1}^{m} (ŷ^{(i)}- y^{(i)})^2$
+ J(w,b) = (1/2m) * $\sum_{i=1}^{m} (ŷ^{(i)}- y^{(i)})^2$
 
  This is the sum of the squares of the "error" or difference between hypothesized y value (ŷ) and actual y value (y) for each ith iteration.
+
+ m is the number of training examples. 
+
+ So we do the average. But divided by 2. It just makes calculations easier.
+
+ This is called the squared error cost function.
+
+ There are different cost functions. But squared error cost function is the most common.
