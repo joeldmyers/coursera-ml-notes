@@ -228,3 +228,14 @@ $$
 \min_{w,\,b} J(w,b)
 $$
 
+For example they say just set b to 0, and simplify it so we're just worrying about w.
+
+So then it's just
+$$
+\min_{w} J(w)
+$$
+
+So then you can start graphing out the J(w) with different w values and try to get to the minimum.
+
+
+<img width="979" alt="Bildschirmfoto 2025-05-25 um 6 32 43 PM" src="https://github.com/user-attachments/assets/ebf892ff-4e1e-4a1f-bd75-89ec4ec32399" />
