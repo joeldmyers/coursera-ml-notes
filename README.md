@@ -192,3 +192,22 @@ x is called input feature.
 if it's y it's the actual true value. ŷ is estimate that may or may not be accurate true value.
 
 f<sub>w,b</sub>(x) = wx + b
+
+This linear regression approach is simplistic but a good place to start.
+
+Side note, scalar is single value, vector is ordered array of numbers.
+
+W is for weight, b is for bias.
+
+NumPy is a popular library for scientific computing
+Matplotlib is a popular library for plotting data
+
+## Cost function
+
+Tells us how well the model is doing.
+
+w and b are *parameters* of a model. They can also be referred to as *coefficients* or *weights*. 
+
+Cost function takes ŷ - y: this difference measures the error. 
+
+ $\sum_{i=1}^{m} (ŷ^{(i)}- y^{(i)})$.
