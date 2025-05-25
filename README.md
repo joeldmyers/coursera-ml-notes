@@ -235,3 +235,5 @@ So then you can start graphing out the J(w) with different w values and try to g
 
 
 <img width="979" alt="Bildschirmfoto 2025-05-25 um 6 32 43 PM" src="https://github.com/user-attachments/assets/ebf892ff-4e1e-4a1f-bd75-89ec4ec32399" />
+
+This is simplified though, because it's only two parameters. This needs to be three-dimensional to account for b.
