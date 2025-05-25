@@ -246,3 +246,7 @@ So w would be x, b would be y, and J would be Z.
 
 
 <img width="832" alt="Bildschirmfoto 2025-05-25 um 6 38 27 PM" src="https://github.com/user-attachments/assets/3f4d83ad-c860-4195-adff-43261d5a1a21" />
+
+You can also use a contour plot to depict this in two dimensions:
+
+<img width="682" alt="Bildschirmfoto 2025-05-25 um 6 40 02 PM" src="https://github.com/user-attachments/assets/3108513b-72f4-49a3-8356-a905c57bd7e8" />
