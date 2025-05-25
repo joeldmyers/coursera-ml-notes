@@ -224,9 +224,7 @@ Cost function takes ŷ - y: this difference measures the error.
 
  ### Some intuition around cost function.
 What we are aiming for is to minimize J in the above:
-$$
-\min_{w,\,b} J(w,b)
-$$
+![minimize equation](https://latex.codecogs.com/svg.image?\min_{w,\,b}J(w,b))
 
 For example they say just set b to 0, and simplify it so we're just worrying about w.
 
