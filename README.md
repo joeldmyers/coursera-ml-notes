@@ -2,6 +2,6 @@
 
 [Class link here](https://www.coursera.org/learn/machine-learning?specialization=machine-learning-introduction)
 
-[Week 1 Notes](class_1/week_1/README.md)
+[My notes from week 1](class_1/week_1/README.md)
 
-[Week 2 Notes](class_1/week_2/README.md)
+[My notes from week 2](class_1/week_2/README.md)
