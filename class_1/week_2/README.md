@@ -31,3 +31,20 @@ f<sub>$\vec{w}$,b</sub>($\vec{x}$) = $\vec{w}$ ⋅ $\vec{x}$ + b
 So this is dot product. Which is same as the longer one above but more compact.
 
 The name of this is called **multiple linear regression**.
+
+To implement this, we can do *vectorization*.
+
+Note: these are 1-indexed. 
+
+Numpy is linear algebra library.
+
+Can do a dot product so it's more computationally efficient: 
+
+<img width="939" alt="Bildschirmfoto 2025-05-26 um 2 10 32 PM" src="https://github.com/user-attachments/assets/479dd3d9-b274-4725-ab8d-67a77643ed0b" />
+
+This runs much faster than having to sum it up using for loop etc.
+
+Vectorization has two benefits: 
+
+- shorter code
+- code runs much faster.
