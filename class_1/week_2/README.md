@@ -23,3 +23,11 @@ We can then describe these parameters as a vector, $\vec{w}$, to indicate all th
 This is a row vector.
 
 We can do the same for x, $\vec{x}$
+
+So then we can do: 
+
+f<sub>$\vec{w}$,b</sub>($\vec{x}$) = $\vec{w}$ ⋅ $\vec{x}$ + b
+
+So this is dot product. Which is same as the longer one above but more compact.
+
+The name of this is called **multiple linear regression**.
