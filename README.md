@@ -306,4 +306,13 @@ Be careful:
 
 <img width="942" alt="Bildschirmfoto 2025-05-26 um 9 16 13 AM" src="https://github.com/user-attachments/assets/cbeeedb0-2091-49c3-8258-4f70902af56d" />
 
+Intuition-wise, we are taking the partial derivative to get the slope at that place, and then moving a small amount down that line: 
 
+<img width="953" alt="Bildschirmfoto 2025-05-26 um 9 22 24 AM" src="https://github.com/user-attachments/assets/a9ea0899-e5b0-4fae-97e9-7533eac132ec" />
+
+
+How to calculate: 
+
+<img width="913" alt="Bildschirmfoto 2025-05-26 um 9 36 03 AM" src="https://github.com/user-attachments/assets/2811a364-3d7b-4559-8337-c99e9ac04f81" />
+
+It's called "batch gradient descent" because it looks at the entire training set for each update step.
