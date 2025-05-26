@@ -258,3 +258,52 @@ You want to get to the minimum:
 <img width="733" alt="Bildschirmfoto 2025-05-25 um 6 43 46 PM" src="https://github.com/user-attachments/assets/86488d13-6d2c-4f4d-9e4c-53a6aca33600" />
 
 The algorithm for getting to this minimizing cost is **Gradient Descent**
+
+## Gradient Descent
+
+This is used not just for linear regression but for deep learning models.
+
+So we have some cost function J(w,b)
+and we want ![minimize equation](https://latex.codecogs.com/svg.image?\min_{w,\,b}J(w,b))
+
+Gradient descent can be used to minimize any function. It applies to more general functions including models with more than two parameters.
+
+With any number of ws it can still work.
+
+How it works: 
+
+Start with an arbitrary value. It's common to start with W = 0 and b = 0.
+
+Note that with linear regression there will always be a bowl. With others there may be multiple minima:
+
+<img width="942" alt="Bildschirmfoto 2025-05-26 um 9 04 43 AM" src="https://github.com/user-attachments/assets/2529bb65-d46a-4a93-8444-e43ee6d6b3b3" />
+
+So at any place you're at, determine the place where the slope is the steepest. Then take a baby step that way.
+
+Then do the same. See where the steepest value is, 
+
+until you arrive at a local minimum.
+
+### Implementing Gradient Descent
+
+for each step: 
+
+w = w - α * ∂/∂w J(w,b)
+
+b = b - α * ∂/∂b J(w,b)
+
+Assigning w to be the current value of w minus a small amount.
+
+α (alpha) is the learning rate. It's usually between 0 and 1. It's the "step" taken.
+
+The other part is the derivative of the cost function J with respect to w. And same for b.
+
+We have to update both at the same time.
+
+And you go until the parameters don't change much.
+
+Be careful: 
+
+<img width="942" alt="Bildschirmfoto 2025-05-26 um 9 16 13 AM" src="https://github.com/user-attachments/assets/cbeeedb0-2091-49c3-8258-4f70902af56d" />
+
+
