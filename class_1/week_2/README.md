@@ -145,3 +145,6 @@ let ε be 10<sup>-3</3> so if J(w->, b) decreases by <= ε in one iteration, say
 
 Maybe for alpha, try .001, then .01, .1, and 1.
 
+Try the above. What Andrew Ng does: try .001, increase it it to .003, then .01, then .03, then .1, then .3, then 1. 
+
+Try the largest possible learning rate or maybe just a bit smaller, that works. If it's too large it will start to look weird (zigzag).
