@@ -141,4 +141,5 @@ We can also do an "automatic convergence test"
 
 let ε be 10<sup>-3</3> so if J(w->, b) decreases by <= ε in one iteration, say we're done.
 
-<img width="1209" alt="Bildschirmfoto 2025-05-31 um 4 24 30 PM" src="https://github.com/user-attachments/assets/d4d9e69d-2f48-4b97-9d9e-ab40dfe4797f" />
+<img width="1204" alt="Bildschirmfoto 2025-05-31 um 4 29 27 PM" src="https://github.com/user-attachments/assets/46cbbcb9-6455-47e2-905b-90e5d85e8c02" />
+
