@@ -94,3 +94,5 @@ With multiple variables:
 <img width="919" alt="Bildschirmfoto 2025-05-31 um 3 28 51 PM" src="https://github.com/user-attachments/assets/68840017-7599-4641-aa9a-db9cc4fb47fe" />
 
 I guess this algorithm takes in a number of iterations which I guess one has to set practically; there's no set way to set this apparently.
+
+For each iteration, it essentially calculates the partial derivatives and takes a small step down. It appends the cost function for debugging / observation purposes.
