@@ -69,8 +69,6 @@ this is better performance-wise than a for loop:
 
 <img width="1016" alt="Bildschirmfoto 2025-05-31 um 3 00 18 PM" src="https://github.com/user-attachments/assets/661b9a43-250f-4562-8ae9-184589fcd562" />
 
-## Matrix review
-
 Convention is to use m x n, m is rows, n is columns.
 
 Numpy's basic data structure is an indexable, n-dimensional array containing elements of the same type (dtype).
@@ -80,3 +78,19 @@ So in these training models, training data contains m examples by n features.
 We can make these m x n arrays the same way as above, just array of arrays: 
 
 ```a = np.array([[5], [4], [3]]);```
+
+<img width="855" alt="Bildschirmfoto 2025-05-31 um 3 20 50 PM" src="https://github.com/user-attachments/assets/46c0ee18-4c04-4eca-a596-780bc2101676" />
+
+How we would compute the cost in Python:
+
+<img width="1006" alt="Bildschirmfoto 2025-05-31 um 3 24 51 PM" src="https://github.com/user-attachments/assets/fbbbdcb5-3aa3-4333-b520-a991ef8e96c8" />
+
+So we compute the gradient, essentially writing the partial derivative calculations in Python: 
+
+<img width="1015" alt="Bildschirmfoto 2025-05-31 um 3 27 36 PM" src="https://github.com/user-attachments/assets/0e25a047-05b9-40fc-b0e7-8adf4aeb3259" />
+
+With multiple variables: 
+
+<img width="919" alt="Bildschirmfoto 2025-05-31 um 3 28 51 PM" src="https://github.com/user-attachments/assets/68840017-7599-4641-aa9a-db9cc4fb47fe" />
+
+I guess this algorithm takes in a number of iterations which I guess one has to set practically; there's no set way to set this apparently.
