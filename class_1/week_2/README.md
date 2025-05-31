@@ -143,3 +143,5 @@ let ε be 10<sup>-3</3> so if J(w->, b) decreases by <= ε in one iteration, say
 
 <img width="1204" alt="Bildschirmfoto 2025-05-31 um 4 29 27 PM" src="https://github.com/user-attachments/assets/46cbbcb9-6455-47e2-905b-90e5d85e8c02" />
 
+Maybe for alpha, try .001, then .01, .1, and 1.
+
