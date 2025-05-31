@@ -96,3 +96,49 @@ With multiple variables:
 I guess this algorithm takes in a number of iterations which I guess one has to set practically; there's no set way to set this apparently.
 
 For each iteration, it essentially calculates the partial derivatives and takes a small step down. It appends the cost function for debugging / observation purposes.
+
+## Feature Scaling
+
+We want to "scale down" features so they're not like huge. Like, house size is from 300-2000 feet, and number of bedrooms is from 0-5. So they're not really scaled well.
+
+Example: House size 2000, number of bedrooms is 5, price is 500,000. 
+
+This will make things difficult. 
+
+We fix this by "scaling" the data so that all parameters have a range of 0 to 1.
+
+<img width="1202" alt="Bildschirmfoto 2025-05-31 um 3 46 53 PM" src="https://github.com/user-attachments/assets/afb674ea-4373-46df-aa89-c8fbcf3c5c52" />
+
+One way to do this is to divide by the max of the range.
+
+We can also do *mean normalization* - center the data around zero.
+
+So this would be x<sub>1</sub> = (x<sub>1</sub> - μ<sub>1</sub>) / (max - min) where μ is the mean.
+
+A third way of doing this is to calculate a z-score normalization. This uses standard deviations.
+
+<img width="1186" alt="Bildschirmfoto 2025-05-31 um 4 04 26 PM" src="https://github.com/user-attachments/assets/262c7579-3126-4675-a98f-1c74d5292636" />
+
+Generally we want to get around -1 to +1. But it doesn't have to be exact. -3 to +3 or -.3 to +.3. 0 to 3 is ok.
+
+How do you know if it's actually working?
+
+Graph the output. 
+
+<img width="1193" alt="Bildschirmfoto 2025-05-31 um 4 13 41 PM" src="https://github.com/user-attachments/assets/11de95ed-7b86-4c9a-ac5c-345e6987d1be" />
+
+x is number of iterations. y is the cost. 
+
+This is also called the learning curve.
+
+If it's working properly, it should always be *decreasing* after every iteration.
+
+If it's *increasing* it may be that alpha is too large or there's a bug.
+
+The number of iterations needed may vary a ton - maybe 30, maybe 1,000, maybe 100,000. So the learning curve is important for helping learn.
+
+We can also do an "automatic convergence test"
+
+let ε be 10<sup>-3</3> so if J(w->, b) decreases by <= ε in one iteration, say we're done.
+
+<img width="1209" alt="Bildschirmfoto 2025-05-31 um 4 24 30 PM" src="https://github.com/user-attachments/assets/d4d9e69d-2f48-4b97-9d9e-ab40dfe4797f" />
