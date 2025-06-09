@@ -148,3 +148,7 @@ Maybe for alpha, try .001, then .01, .1, and 1.
 Try the above. What Andrew Ng does: try .001, increase it it to .003, then .01, then .03, then .1, then .3, then 1. 
 
 Try the largest possible learning rate or maybe just a bit smaller, that works. If it's too large it will start to look weird (zigzag).
+
+<img width="975" alt="Bildschirmfoto 2025-06-09 um 7 55 18 PM" src="https://github.com/user-attachments/assets/16dfbc83-6f14-4835-9d11-1c7212f75dbd" />
+
+<img width="989" alt="Bildschirmfoto 2025-06-09 um 7 56 24 PM" src="https://github.com/user-attachments/assets/8f51ad63-ae7a-4ea1-8109-54ee8d1ca2c7" />
