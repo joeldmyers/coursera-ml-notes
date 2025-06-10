@@ -152,3 +152,19 @@ Try the largest possible learning rate or maybe just a bit smaller, that works. 
 <img width="975" alt="Bildschirmfoto 2025-06-09 um 7 55 18 PM" src="https://github.com/user-attachments/assets/16dfbc83-6f14-4835-9d11-1c7212f75dbd" />
 
 <img width="989" alt="Bildschirmfoto 2025-06-09 um 7 56 24 PM" src="https://github.com/user-attachments/assets/8f51ad63-ae7a-4ea1-8109-54ee8d1ca2c7" />
+
+## Feature Engineering
+
+Choice of features is very important. In above it's been number of bedrooms, square feet, etc. 
+
+Also you can transform features, like if you have frontage and depth, maybe instead use area which is derived from inputs.
+
+## Polynomial 
+
+<img width="852" alt="Bildschirmfoto 2025-06-09 um 8 05 27 PM" src="https://github.com/user-attachments/assets/cb6b72ea-2863-46e4-bb4e-d4debce64758" />
+
+**Scikit** is important library to help with all this stuff :) 
+
+https://scikit-learn.org/stable/
+
+Classification, regression, etc.
