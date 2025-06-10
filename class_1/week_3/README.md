@@ -41,4 +41,9 @@ Inputs features, outputs 0 or 1.
 It can give a probability: 
 <img width="845" alt="Bildschirmfoto 2025-06-09 um 8 47 58 PM" src="https://github.com/user-attachments/assets/43c05125-c0a7-47db-b023-a8032ca0384c" />
 
+From lab: 
+
+<img width="914" alt="Bildschirmfoto 2025-06-10 um 7 50 49 PM" src="https://github.com/user-attachments/assets/f269de46-4d61-45dc-a5ef-e88ec1bacb1b" />
+
+Note what it says about z, this z is what we're targeting, it seems.
 
