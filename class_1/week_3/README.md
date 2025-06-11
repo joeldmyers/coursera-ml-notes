@@ -78,3 +78,31 @@ to the left of this line it would predict 0, to the right it would predict 1.
 <img width="842" alt="Bildschirmfoto 2025-06-10 um 8 10 15 PM" src="https://github.com/user-attachments/assets/0adaf0af-93bb-49cb-ba92-972011eab7cb" />
 
 <img width="844" alt="Bildschirmfoto 2025-06-10 um 8 11 07 PM" src="https://github.com/user-attachments/assets/9f9a776a-7fb4-4e2b-8dae-01bb6fa72e4a" />
+
+Cost function gives you a way to see how well it fits data. 
+
+Turns out squared error is bad for logistic regression.
+
+Example training set: 
+
+<img width="789" alt="Bildschirmfoto 2025-06-10 um 8 30 34 PM" src="https://github.com/user-attachments/assets/96a23960-cd7f-43a4-8902-94b5d1da47a4" />
+
+<img width="858" alt="Bildschirmfoto 2025-06-10 um 8 31 42 PM" src="https://github.com/user-attachments/assets/dea207d9-6435-44e2-8fc1-9e2dc855bafa" />
+
+This is non-convex, a lot of local minima that gradient descent can get "stuck" in. So it's bad.
+
+We can call this one unit within sigma notation as "loss" 
+
+Need to re-review this tomorrow, getting a little sleepy. 
+
+<img width="874" alt="Bildschirmfoto 2025-06-10 um 8 41 42 PM" src="https://github.com/user-attachments/assets/6fac5040-1795-4461-a7d9-f772239b0802" />
+
+But this penalizes it for marking as 1 when it should be zero.
+
+https://www.coursera.org/learn/machine-learning/lecture/0hpr8/cost-function-for-logistic-regression
+
+This way it is reliably convex.
+
+So this is it put all together: 
+
+<img width="844" alt="Bildschirmfoto 2025-06-10 um 8 43 02 PM" src="https://github.com/user-attachments/assets/c2ccfd0d-b6b3-4af6-a08f-2a1a13d6ca99" />
