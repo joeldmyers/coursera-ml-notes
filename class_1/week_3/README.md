@@ -47,3 +47,34 @@ From lab:
 
 Note what it says about z, this z is what we're targeting, it seems.
 
+Other way of writing this: 
+
+<img width="470" alt="Bildschirmfoto 2025-06-10 um 7 55 24 PM" src="https://github.com/user-attachments/assets/ae2fc42a-c3e3-45b7-ad78-8d9e9f9fe77f" />
+
+So the whole point of this then is to figure out z.
+
+So if we do this, we say if this g(z) = 1 / (1 + e<sup>-z</sup>) is >= .5 we say it predicts 1, otherwise do zero.
+
+So we can then sort of derive down to other stuff. like use basic algebra to then sort of focus on the original vector linear etc. formula we've already been using.
+
+So we're trying to get to a **decision boundary**
+
+<img width="836" alt="Bildschirmfoto 2025-06-10 um 8 03 43 PM" src="https://github.com/user-attachments/assets/6680bf68-66d1-43ca-bea1-36782b7e6fd0" />
+
+So to do this, we can look at a line exactly where z = w -> [dot] x -> + b = 0. 
+
+This is the decision boundary. This is the "neutral" line. Since this resolves into .5 since it's 1 / (1 + e ^ 0) which is .5
+
+<img width="838" alt="Bildschirmfoto 2025-06-10 um 8 06 43 PM" src="https://github.com/user-attachments/assets/8588ce81-2256-458f-a626-5d1057b10ce1" />
+
+So it's plottying the two parameters. It's then:
+
+x<sub>2</sub> = -x<sub>1</sub> + 3
+
+to the left of this line it would predict 0, to the right it would predict 1.
+
+### Nonlinear
+
+<img width="842" alt="Bildschirmfoto 2025-06-10 um 8 10 15 PM" src="https://github.com/user-attachments/assets/0adaf0af-93bb-49cb-ba92-972011eab7cb" />
+
+<img width="844" alt="Bildschirmfoto 2025-06-10 um 8 11 07 PM" src="https://github.com/user-attachments/assets/9f9a776a-7fb4-4e2b-8dae-01bb6fa72e4a" />
