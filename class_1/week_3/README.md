@@ -134,6 +134,36 @@ With scikit it can make it easy:
 
 ## Overfitting Problem
 
-<img width="1045" alt="Bildschirmfoto 2025-06-16 um 8 49 52 PM" src="https://github.com/user-attachments/assets/87c3996b-aafb-445d-bb1b-c529bc1b2b46" />
+<img width="1076" alt="Bildschirmfoto 2025-06-16 um 8 52 19 PM" src="https://github.com/user-attachments/assets/9d21b510-886d-446c-8602-277787056297" />
 
 Go overboard with stuff and make it fit too well but then have high variance.
+
+### Ways to address overfitting
+
+- get more data. This is the best way to address this.
+
+- also maybe don't use so many features.
+
+If you have a ton of features but not a ton of training data, it may be better to select the most useful ones.
+
+This is called _feature selection_. Use intuition to select features.
+
+- "Regularization"
+
+<img width="1047" alt="Bildschirmfoto 2025-06-16 um 9 36 17 PM" src="https://github.com/user-attachments/assets/e83bfae3-2fb0-4f1e-98eb-7a6eb43dca63" />
+
+I wasn't totally clear on this but I think the idea is to drop some of the larger ones...
+
+Smaller values for w => simpler model. Less likely to overfit.
+
+<img width="1081" alt="Bildschirmfoto 2025-06-16 um 9 53 16 PM" src="https://github.com/user-attachments/assets/4485aadc-bf62-4ce6-9cc5-7c26d392b79c" />
+
+Basically "penalize" the third and fourth to penalize large numbers...
+
+So we have to pick a lambda:
+
+<img width="1087" alt="Bildschirmfoto 2025-06-16 um 9 56 07 PM" src="https://github.com/user-attachments/assets/eb43b60a-4209-4580-ac42-f7ccf258a739" />
+
+to regularize it.
+
+<img width="1056" alt="Bildschirmfoto 2025-06-16 um 9 57 44 PM" src="https://github.com/user-attachments/assets/e399cffd-88a8-486a-97ee-e8696ab40829" />
