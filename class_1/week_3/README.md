@@ -114,3 +114,26 @@ Notes about how to do this cost function. It's two separate functions:
 Can combine these since the value can only be zero or 1 into:
 
 <img width="990" alt="Bildschirmfoto 2025-06-16 um 8 05 28 PM" src="https://github.com/user-attachments/assets/ac13745d-a672-4109-a8b8-8bd44f4ef74b" />
+
+Repeated:
+
+<img width="1195" alt="Bildschirmfoto 2025-06-16 um 8 10 23 PM" src="https://github.com/user-attachments/assets/7ad0aeac-c15f-4ce5-9ea1-233a5141098a" />
+
+This is basically what everyone uses for classification:
+
+<img width="1208" alt="Bildschirmfoto 2025-06-16 um 8 11 10 PM" src="https://github.com/user-attachments/assets/cbaeac00-fc78-42c5-b7bb-744b3c88ae9e" />
+
+So again the goal is to find w -> dot x + b for this:
+
+<img width="1183" alt="Bildschirmfoto 2025-06-16 um 8 15 42 PM" src="https://github.com/user-attachments/assets/9d03903a-f9c2-4e78-974d-cd8845e4786f" />
+
+<img width="1197" alt="Bildschirmfoto 2025-06-16 um 8 17 40 PM" src="https://github.com/user-attachments/assets/4b31893f-4cdf-4b5d-9042-4a4219f7112f" />
+
+With scikit it can make it easy:
+<img width="922" alt="Bildschirmfoto 2025-06-16 um 8 41 51 PM" src="https://github.com/user-attachments/assets/99358c54-2d34-4fa2-bd94-37815fb19ae9" />
+
+## Overfitting Problem
+
+<img width="1045" alt="Bildschirmfoto 2025-06-16 um 8 49 52 PM" src="https://github.com/user-attachments/assets/87c3996b-aafb-445d-bb1b-c529bc1b2b46" />
+
+Go overboard with stuff and make it fit too well but then have high variance.
